@@ -1,0 +1,64 @@
+{
+  "screens": {
+    "AwaitIteratedResultScreen": {
+      "description": "Dit scherm wacht op de resultaten van de vorige iteratie van dit experiment."
+    },
+    "ConnectInteractiveScreen": {
+      "description": "Dit scherm zet de connectie met het interactieve experiment op en wacht tot er genoeg participanten zijn om het experiment te beginnen."
+    },
+    "EyetrackingCalibrationScreen": {
+      "start": "Wacht even tot de eye-tracker is geladen.",
+      "instruction": "Volg het rode puntje en klik erop.",
+      "error": "Er is iets fout gegaan. Herlaad de pagina."
+    },
+    "EyetrackingValidationScreen": {
+      "instruction": "Kijk naar de blauwe punt in het midden.",
+      "error": "Er is iets fout gegaan. Herlaad de pagina."
+    },
+    "PostTestScreen": {
+      "instruction": "Het beantwoorden van de volgende vragen is optioneel, maar helpt ons bij het analyseren en interpreteren van de data van dit experiment.",
+      "age": "Leeftijd",
+      "gender": "Gender",
+      "male": "Mannelijk",
+      "female": "Vrouwelijk",
+      "otherGender": "Anders",
+      "education": "Hoogst behaalde opleiding",
+      "educationBelowHighschool": "Geen, of alleen basisschool",
+      "educationHighschool": "Praktijkonderwijs, vmbo, eerste drie jaar havo, eerste drie jaar vwo of mbo-1",
+      "educationCollege": "Havo, vwo, mbo-2, mbo-3 of mbo-4",
+      "educationHigher": "HBO, WO",
+      "nativeLanguages": "Moedertaal",
+      "nativeLanguagesExplanation": "De taal of talen die toen u een kind was bij u thuis werd(en) gesproken.",
+      "comments": "Verdere opmerkingen",
+      "belowHighschool": "screens.PostTestScreen.belowHighschool"
+    },
+    "SubmitResultsScreen": {
+      "waiting": "De resultaten worden opgeslagen. Een momentje alstublieft...",
+      "done": "Gereed! Bedankt voor het meedoen! Deze pagina zal u automatisch terugleiden naar Prolific. (Als dit niet binnen een minuut gebeurt mag u dit tabblad sluiten)...",
+      "error": "Er is een probleem opgetreden met het online opslaan van uw resultaten.",
+      "manual":"Om geen kostbare tijd te verspillen, klik alstublieft op de onderstaande knop om uw resultaten te downloaden, en doe dan een van de twee dingen:",
+      "contact": "Optie 1: Stuur het bestand als bijlage in een mail naar de onderzoeker:",
+      "upload": "Option 2: Upload de data anoniem via deze link:",
+      "thanks":"Bedankt voor uw deelname!",
+      "download": "Download data"
+    }
+  },
+  "general": {
+    "nextButton": "Volgende",
+    "start": "Start",
+    "go": "Start",
+    "send": "Verstuur"
+  },
+  "interactive": {
+    "Chat": {
+      "messageLabel": "Typ hier een berichtje naar de andere participant.",
+      "statusYouJoined": "Je bent erbij gekomen",
+      "statusYouLeft": "Je bent weggegaan",
+      "statusParticipantJoined": "{user} is erbij gekomen",
+      "statusParticipantLeft": "{user} is weggegaan"
+    },
+    "general": {
+      "aborted": "Het experiment kan niet doorgaan omdat een particpant is het experiment heeft verlaten. Ga verder naar het indienen van de resultaten."
+    }
+  }
+}
